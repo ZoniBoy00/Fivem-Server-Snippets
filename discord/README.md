@@ -24,7 +24,7 @@ Follow these steps to get the Discord Rich Presence script running on your FiveM
 ### 2. Place the Resource
 
 *   Extract the `discord` folder (or whatever you named it) into your FiveM server's `resources` directory.
-    \`\`\`
+    ```
     your-fivem-server/
     └── resources/
         └── [your-resources]/
@@ -33,7 +33,7 @@ Follow these steps to get the Discord Rich Presence script running on your FiveM
                 ├── fxmanifest.lua
                 └── server.lua
                 └── README.md
-    \`\`\`
+    ```
 
 ### 3. Configure Your Discord Application (Crucial!)
 
