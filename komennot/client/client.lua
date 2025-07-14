@@ -1,2 +1,0 @@
-ESX              = nil
-local PlayerData = {}
