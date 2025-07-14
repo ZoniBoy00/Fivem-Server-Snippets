@@ -57,7 +57,7 @@ For the Rich Presence to work, you need to set up a Discord Application and uplo
 *   Open `discord/client.lua` with a text editor.
 *   Modify the `Config` table at the top of the file to match your server's details and preferences:
 
-    \`\`\`lua
+    ```lua
     local Config = {
         AppId = 'YOUR_DISCORD_APPLICATION_ID', -- **REQUIRED**: Replace with your application ID
         ServerName = 'Your Awesome Server',    -- The name of your server
@@ -75,16 +75,16 @@ For the Rich Presence to work, you need to set up a Discord Application and uplo
             -- { label = 'Website', url = 'https://yourwebsite.com' }       -- Uncomment and fill in
         }
     }
-    \`\`\`
+    ```
 
 ### 5. Start the Resource
 
 *   Add `ensure discord` (or `start discord` if you're using an older `server.cfg`) to your `server.cfg` file.
-    \`\`\`cfg
+    ```cfg
     # ... other resources
     ensure discord
     # ...
-    \`\`\`
+    ```
 
 *   Restart your FiveM server.
 
@@ -100,13 +100,13 @@ Once installed and configured, players connected to your server will automatical
 
 ## 📂 File Structure
 
-\`\`\`
+```
 discord/
 ├── client.lua      # Client-side script: Handles Discord RPC updates and configuration.
 ├── fxmanifest.lua  # Resource manifest file.
 └── server.lua      # Server-side script: Provides player count to clients.
 └── README.md       # This file.
-\`\`\`
+```
 
 ##  troubleshooting
 
